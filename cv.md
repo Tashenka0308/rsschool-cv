@@ -35,4 +35,13 @@ Language skills:
 *	participation in conference
 *	public speaking
 
-
+#### Example HTML
+```
+<div>
+        <ul>
+        <li>Russian - Proficiency</li>
+        <li>Belorussian - Advanced</li>
+        <li>English - Pre-Intermediate</li>
+         </ul>
+ </div>
+ ```
