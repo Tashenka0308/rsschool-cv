@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+html {
+    background: rgba(163, 137, 88, 0.1);
+    scroll-behavior: smooth;
+    font-family: "Roboto";
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+section {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.container {
+   max-width: 1300px;
+   margin: 0 auto;
+}
+
+
+/* header*/
+header {
+    height: 80px;
+    background: rgba(163, 137, 88, 0.4);
+    width: 100%;
+}
+
+.nav-items {
+    display: flex;
+    padding-top: 25px;
+    cursor: pointer;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+
+.nav-item :hover {
+    color: rgb(11, 2, 29);
+}
+
+.nav-link {
+    color:  rgb(114, 95, 60);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-flow: row;
+    gap: 5px;
+}
+
+.main-info {
+ width: 50%;
+ display: flex;
+ flex-flow: column nowrap;
+}
+
+h1 {
+   color:  rgb(44, 37, 24);
+   font-size: 35px;
+   font-weight: bold;
+   margin: 25px;
+   text-align: center;
+}
+
+.foto {
+    border-radius: 100px;
+    width:200px;
+    height:200px;
+}
+
+h2 {
+   color:  rgb(44, 37, 24);
+   font-size: 30px;
+   font-weight: bold;
+   display: inline;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+h3 {
+    color:  rgb(44, 37, 24);
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+ }
+
+.contact-item {
+   margin-top: 10px;
+   color:  rgb(114, 95, 61);
+   font-size: 18px;
+   font-weight: bold;
+   list-style: none;
+}
+
+/*skills*/
+
+.skill-item {
+    margin-top: 10px;
+    color:  rgb(114, 95, 61);
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill:  rgba(87, 70, 34, 0.3);
+}
+
+.green {
+    fill:  rgb(87, 70, 34);
+}
+
+.grade {
+    display: inline;
+}
+
+.second {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+/* About me*/
+
+.section_about_me {
+    justify-content: flex-start;
+}
+
+p {
+   color:  rgb(114, 95, 61);
+   font-size: 18px;
+}
+
+/* Code*/
+
+.section_code {
+    align-self: flex-start;
+}
+
+.code {
+   color:rgb(146, 138, 123);
+   font-size: 15px;
+   font-weight: bold;
+   font-style: italic;
+}
+/* project */
+.link_project {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color:  rgb(114, 95, 61);
+    font-style: italic;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.link_project:hover {
+    color: rgb(12, 2, 36);
+}
+
+
+/* footer*/
+footer {
+    margin-top: 50px;
+    height: 150px;
+    background: rgba(163, 137, 88, 0.15);
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    height: 130px;
+    padding-top: 50px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 20px;
+    color:  rgb(114, 95, 61);
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-link:hover {
+    color: rgb(12, 2, 36);
+}
+
+.footer-icon {
+    width: 120px;
+    height: 90px;
+    fill:  rgb(44, 37, 24);
+}
